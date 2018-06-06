@@ -1,4 +1,4 @@
-# liri-node-app
+## liri-node-app
 IRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data.
 
 
@@ -13,3 +13,6 @@ IRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Re
 # `node liri.js movie-this '<movie name here>'`
 
  * This will output the following information to your terminal/bash window:
+
+
+ ![Come back next time](demo.gif)
