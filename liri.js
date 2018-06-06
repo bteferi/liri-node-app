@@ -100,17 +100,17 @@ function spotifyFunc(input) {
 
 function twitterFunc() {
   var params = {
-    screen_name: 'iamcardib'
+    screen_name: 'codinghorror'
   }; // change screen name to the actual tweeter name - cardi bi
   client.get('statuses/user_timeline', params, function(error, tweets, response) {
     console.log("\n======================================================================================================\n");
-    console.log("*********************Here are you most recent 20 tweets******************")
+    console.log("*********************Here are you most recent 20 tweets from Jeff Atwood co-founder of Stack Overflow ******************")
     console.log("");
     console.log("");
 
     if (!error) {
       for (var i = 0; i < tweets.length; i++) {
-        console.log(tweets[i].text);
+        console.log(tweets[i].text + "\n");
 
       }
       console.log("\n====================================================================================================\n");
